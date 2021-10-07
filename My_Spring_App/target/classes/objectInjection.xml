@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context 
+    http://www.springframework.org/schema/context/spring-context.xsd">
+    
+	<bean id="point1" class="org.pack.spring.bean.Point">
+		<property name="x" value="1" />
+		<property name="y" value="1" />
+	</bean>
+	<bean id="point2" class="org.pack.spring.bean.Point">
+		<property name="x" value="10" />
+		<property name="y" value="10" />
+	</bean>
+	<bean id="line" class="org.pack.spring.bean.Line">
+		<property name="pointA" ref="point1" />
+		<property name="pointB" ref="point2" />
+	</bean>
+	
+</beans>

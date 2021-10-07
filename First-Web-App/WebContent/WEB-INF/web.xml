@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://JAVA.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<servlet>
+		<servlet-name>firstServlet</servlet-name>
+		<servlet-class>com.pack.servlet.FirstServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>firstServlet</servlet-name>
+		<url-pattern>/fs</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>secondServlet</servlet-name>
+		<servlet-class>com.pack.servlet.SecondServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>secondServlet</servlet-name>
+		<url-pattern>/SS</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>greetServlet</servlet-name>
+		<servlet-class>com.pack.servlet.GreetServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>greetServlet</servlet-name>
+		<url-pattern>/greet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>form</servlet-name>
+		<servlet-class>com.pack.servlet.RegistrationServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>form</servlet-name>
+		<url-pattern>/form</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>loginServlet</servlet-name>
+		<servlet-class>com.pack.servlet.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>loginServlet</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>stuHome</servlet-name>
+		<servlet-class>com.pack.servlet.StudentHomeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>stuHome</servlet-name>
+		<url-pattern>/stuHome</url-pattern>
+	</servlet-mapping>
+</web-app>

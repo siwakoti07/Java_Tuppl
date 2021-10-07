@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: First_Springboot
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Siwakoti
+Implementation-Vendor-Id: org.springboot
+Build-Jdk: 1.8.0_291
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/First_Springboot
+Created-By: Maven Integration for Eclipse
+
